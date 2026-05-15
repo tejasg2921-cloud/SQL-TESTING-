@@ -1,0 +1,10 @@
+CREATE TABLE person(
+    id INT NOT NULL,
+    person_name VARCHAR(50) NOT NULL,
+    phone VARCHAR(15) NOT NULL,
+    CONSTRAINT pk_person PRIMARY KEY(id)
+);
+INSERT INTO person(id, person_name, phone)
+VALUES
+(1, 'Tejas', '9876543210'),
+(2, 'Rahul', '9123456780');
